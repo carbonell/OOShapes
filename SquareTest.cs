@@ -13,5 +13,15 @@ namespace OOShapes
             square.Side = 2;
             // Assert
         }
+
+        [Fact]
+        public void Can_Calculate_Perimeter()
+        {
+            // Arrange
+            var rectangle = new Square(side: 2);
+            // Act
+            // Assert
+            Assert.Equal(8, rectangle.CalculatePerimeter());
+        }
     }
 }
