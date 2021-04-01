@@ -7,7 +7,7 @@ namespace OOShapes
     public class ShapesTests
     {
         [Fact]
-        public void Can_Play_With_Shapes()
+        public void Can_Play_With_Cuadrilaterals()
         {
             var square = new Square(side: 5);
             var rectangle = new Rectangle(height: 3, _base: 4);
