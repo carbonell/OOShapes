@@ -25,5 +25,10 @@ namespace OOShapes
         {
             Sides = new decimal[] { Base, Base, Height, Height };
         }
+
+        public override decimal CalculateArea()
+        {
+            return Area;
+        }
     }
 }

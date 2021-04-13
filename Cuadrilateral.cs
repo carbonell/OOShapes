@@ -2,7 +2,7 @@ using System.Linq;
 
 namespace OOShapes
 {
-    public abstract class Cuadrilateral
+    public abstract class Cuadrilateral : IShape
     {
         public abstract string Name { get; protected set; }
         public Cuadrilateral()
@@ -18,5 +18,6 @@ namespace OOShapes
         }
 
         public abstract void SetSides();
+        public abstract decimal CalculateArea();
     }
 }
